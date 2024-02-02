@@ -59,6 +59,47 @@ const questions = [
 
         ]
     },
+    {
+        question: "Who raises you up so you can stand on mountains?",
+        answers: [
+            { text: "Buddha", correct: false },
+            { text: "Josh Groban", correct: true },
+            { text: "Robert Frost", correct: false },
+            { text: "Edward Cullen", correct: false }
+
+        ]
+    },
+    {
+        question: "When is Matt's birthday?",
+        answers: [
+            { text: "September 3rd", correct: true },
+            { text: "October 5th", correct: false },
+            { text: "August 28th", correct: false },
+            { text: "January 6th", correct: false }
+
+        ]
+    },
+    {
+        question: "What is Matt's favorite movie?",
+        answers: [
+            { text: "The Big Labowski", correct: false },
+            { text: "Wedding Crashers", correct: false },
+            { text: "Into the Wild", correct: true },
+            { text: "Man on the Moon", correct: false }
+
+        ]
+    },
+    {
+        question: "What state in the 'Lower 48' has Matt NOT been to?",
+        answers: [
+            { text: "Oklahoma", correct: false },
+            { text: "South Dakota", correct: true },
+            { text: "Montana", correct: false },
+            { text: "Maine", correct: false }
+
+        ]
+    }
+
 ];
 
 const questionElement = document.getElementById("question");
